@@ -1,0 +1,17 @@
+html {
+  background-image: url('../img/fon2.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+table {
+border-collapse: collapse;
+page-break-after: always;
+width: auto;
+border: 1px solid #000;
+margin: auto;
+}

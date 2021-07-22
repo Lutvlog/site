@@ -1,0 +1,113 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Anton', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+
+ul, li {
+	display: block;
+	padding: 0; /*обнуляем значения по умолчанию*/
+	margin: 0;
+	text-transform:uppercase
+}
+.phone_pic {
+width: 39px;
+margin-left: 350px;
+max-width: 100%;
+height: auto;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+.container {
+
+	width: 1170px;
+	margin: 0 auto;	/*позиционирование по центру*/
+
+}
+
+html {
+  background-image: url('../img/fon1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.calculation {
+  background-image: url('../img/fon1.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.offer {
+	text-transform: uppercase;
+	margin-top: 216px;
+}
+
+.offer p {
+	color: #fff;
+	font-size: 30px;
+	letter-spacing: 0.1em;
+
+}
+
+.offer h1 {
+	font-size: 100px;
+	margin-bottom: 19px;
+	margin-top: -9px;
+	letter-spacing: 0.02em;
+	color: #fff;
+}
+.bottonm{
+padding-top: 550px;}
+header a {
+color: #fff;  /*цвет ссылок белый*/
+}
+
+.logo {
+margin-right: 70px; /*Сдвижение логотипа от меню*/
+margin-top: 9px;
+}
+.menu{
+    display:flex; /*Выравнивание ссылок в одну линию*/
+
+    }
+.menu li a{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 0.1em;  /*расстояние между буквами*/
+}
+.menu li{
+margin-right: 40px; /*растояние между ссылками 40 пикселей*/
+
+}
+.tel {
+font-size: 18px;
+text-decoration: none;
+margin-left:auto; /*прибивка к левому краю*/
+
+}
+.nav{
+    display:flex; /*расположение внутри контейнера горизонтально*/
+    align-items: center; /*выравнивание в 1 линию*/
+    padding-top: 15px;  /*снижаем вниз контейнер, margin  не работает*/

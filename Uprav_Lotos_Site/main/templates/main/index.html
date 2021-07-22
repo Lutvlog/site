@@ -1,0 +1,50 @@
+{% load static %}
+<!doctype html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>УК Лотос Парк</title>
+      <link rel="stylesheet" href="{% static 'main/css/main.css' %}">
+     <link href="https://fonts.googleapis.com/css2?family=Anton&family=Open+Sans&display=swap" rel="stylesheet">
+
+</head>
+<body >
+    <header id="header" class="header">
+        <div class="container">
+            <div class="nav">
+                {% load static %}
+                <img src="{% static 'main/img/logo1.png' %}" alt="Lotos Park" class="logo">
+                <ul class="menu">
+                    <li>
+                        <a href="{%url 'about'%}">
+                            О компании
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{%url 'calculation'%}">
+                            Калькуляция
+                        </a>
+                    </li>
+                    <li>
+                        <a href="{%url 'contacts'%}">
+                            Контакты
+                        </a>
+                    </li>
+                </ul>
+                <img src="{% static 'main/img/phone1.png' %}" alt="phone" class="phone_pic">
+                <a href="tel:+78512771537" class="tel">
+                    77 15 37
+                </a>
+            </div>
+            <div class="offer">
+                 <img src="{% static 'main/img/Offer.png' %}" alt="fon" class="gray">
+			</div>
+        </div>
+
+    </header>
+</body>
+</html>
